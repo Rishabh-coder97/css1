@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: rgba(238, 64, 11, 0.849);
+    font-size: 40px;
+    background: #CCC;
+    font-family: sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    background: #CCC;
+    width: 100vw;
+    height: 50vw;
+    font-family: sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,0.9);
+}
+
+i {
+    padding: 20px;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 70px;
+    display: block;
+
+}
+
+ul li a {
+    width: 200px;
+    height: 50px;
+    background: #fff;
+    display: flex;
+    text-decoration: none;
+    font-size: 23px;
+    align-items: center;
+    transform: rotate(-30deg) skewX(30deg) translate(0,0);
+    box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
+}
+
+ul li a::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left:-20px;
+    background: #b1b1b1;
+    text-decoration: none;
+    height: 100%;
+    width: 20px;
+    transform: rotate(0deg) skewY(-45deg);
+}
+
+ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    background: #b1b1b1;
+    height: 20px;
+    width: 100%;
+    transform: rotate(0deg) skewX(-45deg);
+}
+
+li a:hover {
+    transform: rotate(-30deg) skew(5deg) translate(20px,-15px);
+    box-shadow: -60px 60px 30px rgba(0,0,0,0.6);
+}
+
+#like a:hover {
+    background: rgba(10,10,250,0.5);
+    color: #fff;
+}
+#like:hover a:before {
+    background:rgba(10,10,250,0.7);
+}
+#like:hover a:after {
+    background:rgba(10,10,250,0.3);
+}
+
+
+li a:hover {
+    transform: rotate(-30deg) skew(5deg) translate(20px,-15px);
+    box-shadow: -60px 60px 30px rgba(0,0,0,0.6);
+}
+
+#Comment a:hover {
+    background: rgba(250,10,0.5);
+    color: #fff;
+}
+#Comment:hover a:before {
+    background:rgba(250,10,0.5);
+}
+#Comment:hover a:after {
+    background:rgba(250,10,0.3);
+}
+
+li a:hover {
+    transform: rotate(-30deg) skew(5deg) translate(20px,-15px);
+    box-shadow: -60px 60px 30px rgba(0,0,0,0.6);
+}
+
+#share a:hover {
+    background: rgba(10,250,0.5);
+    color: #fff;
+}
+#share:hover a:before {
+    background:rgba(10,250,0.5);
+}
+#share:hover a:after {
+    background:rgba(10,250,0.5);
+}
+
+
+
