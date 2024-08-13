@@ -1,3 +1,3 @@
 # css1
 <br>
-my name is Rishabh
+link of code => https://kaizenrishi.github.io/css1/
